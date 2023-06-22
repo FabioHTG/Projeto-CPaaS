@@ -1,33 +1,4 @@
 // Recuperar os dados do localStorage
-/*function obterRegistrosSalvos() {
-  var savedRegistrations = JSON.parse(localStorage.getItem('registrations')) || [];
-  return savedRegistrations;
-}
-
-var registrations = obterRegistrosSalvos();
-console.log(registrations);
-
-
-// Função para validar o login
-function validarLogin() {
-  var usuario = document.getElementById("usuario").value;
-  var senha = document.getElementById("senha").value;
-
-  var savedRegistrations = obterRegistrosSalvos();
-
-  var isValid = savedRegistrations.some(function(registration) {
-    return registration.usuario === usuario && registration.senha === senha;
-  });
-
-  if (isValid) {
-    window.location.href = "cpaas.html";
-  } else {
-    var errorMessage = document.getElementById("error-message");
-    errorMessage.innerText = "Usuário ou senha inválidos.";
-  }
-}*/
-
-// Recuperar os dados do localStorage
 function obterRegistrosSalvos() {
   var savedRegistrations = JSON.parse(localStorage.getItem('registrations')) || [];
   return savedRegistrations;
