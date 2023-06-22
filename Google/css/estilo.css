@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pacifico&display=swap');
+
+body {
+    font-family: "Oswald";
+}
+
+.text {
+    font-size: 170%;
+}
+
+h1 {
+    font-size: 300%;
+} 
+
+.border {
+    border-bottom: 8px solid rgb(0, 153, 255);
+    margin-top: 0%;
+    margin-right: 60%;
+  }
+
+  .problem .content,
+.usa .content,
+.compatibilidade .content,
+.funciona .content,
+.Usos .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.problem .text,
+.usa .text,
+.compatibilidade .text,
+.funciona .text,
+.Usos .text {
+  text-align: left;
+}
+
+.problem .image,
+.usa .image,
+.compatibilidade .image,
+.funciona .image,
+.Usos .image {
+  display: flex;
+  justify-content: center;
+}
+
+.Usos .content {
+  flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 768px) {
+  .problem .content,
+  .usa .content,
+  .compatibilidade .content,
+  .funciona .content,
+  .Usos .content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .problem .text,
+  .usa .text,
+  .compatibilidade .text,
+  .funciona .text,
+  .Usos .text {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  .problem .image,
+  .usa .image,
+  .compatibilidade .image,
+  .funciona .image,
+  .Usos .image {
+    flex: 1;
+    text-align: center;
+  }
+
+  .Usos .content {
+    flex-direction: row;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-button {
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: blue;
+}

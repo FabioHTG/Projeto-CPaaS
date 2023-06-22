@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+
+* {
+  background-color: #ddd9ce;
+  text-align: center;
+}
+
+.imagem {
+  margin: 0;
+  padding-bottom: 25px;
+  align-content: center;
+  padding-top: 1%;
+}
+
+input {
+  border: solid black;
+  border-radius: 45px;
+  font-weight: bold;
+  background-color: white;
+}
+
+#nome {
+  width: 43%;
+  border-radius: 28px;
+  outline: none;
+  margin-top: 2%;
+}
+
+#email {
+  width: 49%;
+  border-radius: 28px;
+  outline: none;
+}
+
+#mae {
+  width: 44%;
+  border-radius: 28px;
+  outline: none;
+}
+
+#data {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 2%;
+  width: 19%;
+}
+
+#cpf {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 2%;
+  width: 19%;
+}
+
+#cel {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 2%;
+  width: 21%;
+}
+
+#tel {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 2%;
+  width: 22%;
+}
+
+#cep {
+  border-radius: 28px;
+  outline: none;
+}
+
+#rua {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 1%;
+  width: 38%;
+}
+
+#bairro {
+  border-radius: 28px;
+  outline: none;
+  width: 34%;
+  margin-top: 2%;
+}
+
+#cidade {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 2%;
+}
+
+#numero {
+  border-radius: 28px;
+  outline: none;
+  width: 10%;
+  margin-top: 2%;
+}
+
+#uf {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 1%;
+  width: 15%;
+}
+
+#senha {
+  border-radius: 28px;
+  outline: none;
+  width: 21%;
+}
+
+#senhaconfirma {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 2%;
+  width: 15%;
+}
+
+#usuario {
+  border-radius: 18px;
+  outline: none;
+  width: 22%;
+}
+
+#estado {
+  margin-top: 2%;
+}
+
+#botão {
+  border-radius: 28px;
+  color: #0a0a0a;
+  font-weight: bold;
+  background-color: #6fd1fb;
+  border: solid black;
+  margin-left: 1%;
+  width: 15%;
+}
+
+#complete {
+  border-radius: 28px;
+  outline: none;
+  margin-top: 2%;
+  width: 45%;
+}
+
+.genero {
+  font-size: 120%;
+}
+
+i {
+  font-size: 25px;
+  cursor: pointer;
+  right: 5%;
+  padding: 0;
+  text-align: justify;
+}
+
+ii {
+  font-size: 25px;
+  cursor: pointer;
+  right: 5%;
+  padding: 0;
+  text-align: justify;
+}
+
+.erro {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#cadastra {
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 28px;
+  color: #0a0a0a;
+  background-color: #6fd1fb;
+  border: solid black;
+  margin-left: 1%;
+  width: 40%;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pacifico&display=swap');
+
+body {
+  font-family: "Oswald";
+  font-size: 1.5em;
+}
+
+.border {
+  border-bottom: 8px solid rgb(0, 153, 255);
+  margin-top: -0.5%;
+  margin-right: 75%;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+  .imagem img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.custom-button {
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: blue;
+}

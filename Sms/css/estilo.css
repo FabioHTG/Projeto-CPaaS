@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pacifico&display=swap');
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.text {
+  font-size: 170%;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+.border {
+  border-bottom: 8px solid rgb(0, 153, 255);
+  margin-top: 0%;
+  margin-right: 60%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .text,
+.content .image {
+  width: 100%;
+}
+
+.oque .content {
+  flex-direction: row;
+  align-items: center;
+}
+
+.oque .image {
+  margin-left: 20px;
+}
+
+.sms .content {
+  flex-direction: column;
+}
+
+.sms .image {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.usa .content {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.usa .text {
+  margin-left: 20px;
+}
+
+.jornada .content {
+  flex-direction: column;
+}
+
+.jornada .image {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.Usos .content {
+  flex-direction: row;
+  align-items: center;
+}
+
+.Usos .text {
+  text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content .text,
+  .content .image {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  .Usos .content {
+    flex-direction: row-reverse;
+  }
+
+  .Usos .text {
+    text-align: left;
+  }
+
+  .Usos .content {
+    flex-direction: row;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+  
+.custom-button {
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: blue;
+}
